@@ -1,0 +1,48 @@
+.section-banner{
+    background-image: url(../image/banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $light;
+    margin: 0 0 60px 0;
+}
+.banner{
+    padding: 140px 0 110px;
+    text-align: center;
+    &__maintitle{
+        font-family: $main-font;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        margin: 0 0 45px;
+    }
+    &__suptitle{
+        font-family: Lato;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 60px;
+        text-transform: uppercase;
+        margin: 0 0 45px;
+    }
+    &__title{
+        font-family: Open Sans;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 66px;
+    }
+    &__btn{
+        font-family: $secondary-font;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: $light;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 21px 56px;
+    }
+}
